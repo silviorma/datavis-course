@@ -25,6 +25,7 @@ const graphNames = ['barras1', 'barras2', 'barras3', 'barras4']
 // that simply renders the value of each cell into the provided DOM node.
 let i;
 for (i in graphNames) {
+	console.log(graphNames[i])
 	new Runtime().module(notebook, name => {
 	  if (name === graphNames[i]) {
 	    return new Inspector(document.querySelector("#" + graphNames[i]));
