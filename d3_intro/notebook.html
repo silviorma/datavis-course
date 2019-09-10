@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+    <p> Gráfico 1: </p>
+    <div id="barras1"></div>
+    <p> Gráfico 2: </p>
+	<div id="barras2"></div>
+    <p> Gráfico 3: </p>
+	<div id="barras3"></div>
+    <p> Gráfico 4: </p>
+	<div id="barras4"></div>
+
+<script type="module">
+
+// Load the Observable runtime and inspector.
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+
+// Your notebook, compiled as an ES module.
+import notebook from "https://api.observablehq.com/@silviorma/introducao-ao-d3-com-observable.js?v=3";
+
+const graphNames = ['barras1', 'barras2', 'barras3', 'barras4']
+// Load the notebook, observing its cells with a default Inspector
+// that simply renders the value of each cell into the provided DOM node.
+let i;
+for (i in graphNames) {
+	new Runtime().module(notebook, name => {
+	  if (name === graphNames[i]) {
+	    return new Inspector(document.querySelector("#" + graphNames[i]));
+	  }
+	});
+}
+</script>
