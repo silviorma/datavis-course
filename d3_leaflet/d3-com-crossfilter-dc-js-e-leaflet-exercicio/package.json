@@ -1,0 +1,14 @@
+{
+  "name": "@silviorma/d3-com-crossfilter-dc-js-e-leaflet-exercicio",
+  "main": "d/7cc82c0ce57f6e93.js",
+  "version": "476.0.0",
+  "homepage": "https://observablehq.com/@silviorma/d3-com-crossfilter-dc-js-e-leaflet-exercicio",
+  "author": {
+    "name": "Silvio",
+    "url": "https://observablehq.com/@silviorma"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
