@@ -1,0 +1,14 @@
+{
+  "name": "@silviorma/les-miserables",
+  "main": "d/25497a06bb7387d3.js",
+  "version": "93.0.0",
+  "homepage": "https://observablehq.com/@silviorma/les-miserables",
+  "author": {
+    "name": "Silvio",
+    "url": "https://observablehq.com/@silviorma"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@silviorma/similar-song-network",
+  "main": "d/8019fd40585b8ca9.js",
+  "version": "79.0.0",
+  "homepage": "https://observablehq.com/@silviorma/similar-song-network",
+  "author": {
+    "name": "Silvio",
+    "url": "https://observablehq.com/@silviorma"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

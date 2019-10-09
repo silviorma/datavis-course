@@ -1,3 +1,8 @@
+## Aula do dia 09/10/2019
+
+[Similar Song Network](d3_network/similar-song-network/index.html)<br>
+[Les Miserables](d3_network/les-miserables/index.html)<br>
+
 ## Aula do dia 30/09/2019
 
 [tutorial](d3_leaflet/d3-com-crossfilter-dc-js-e-leaflet/index.html)<br>
