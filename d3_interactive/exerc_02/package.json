@@ -1,0 +1,14 @@
+{
+  "name": "@silviorma/d3-com-crossfilter-dc-js-e-leaflet-parte-2",
+  "main": "106209f2ad06d026@86.js",
+  "version": "86.0.0",
+  "homepage": "https://observablehq.com/@silviorma/d3-com-crossfilter-dc-js-e-leaflet-parte-2",
+  "author": {
+    "name": "Silvio",
+    "url": "https://observablehq.com/@silviorma"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

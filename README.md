@@ -1,3 +1,8 @@
+## Aula do dia 23/10/2019
+
+[Taxa de Desemprego nos EUA](d3_interactive/exerc_01/index.html)<br>
+[Mapa de terremotos](d3_interactive/exerc_02/index.html)<br>
+
 ## Aula do dia 16/10/2019
 
 [Taxa de Desemprego nos EUA](d3_color/taxa-de-desemprego-nos-eua-em-agosto-de-2016/index.html)<br>
